@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<xml version="1.0" encoding="UTF-8"></xml>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- Fontawsome -->
+        <link rel="stylesheet" href="./css/fontawesome/css/all.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/login_style.css" />
+        
+        <title>SeasonStyle Login</title>
+    </head>
+
+    <body>
+        <form action="" class="login-form text-center needs-validation" novalidate>
+                <h1 class="login-text">Login</h1>
+                <div class="form-group">
+                    <input type="text" class="form-control rounded-pill form-control-lg" id="username" placeholder="Username" required>
+                    <div class="invalid-feedback">Please enter the valid username.</div>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control rounded-pill form-control-lg" id="password" placeholder="Password" required>
+                    <div class="invalid-feedback">Please enter the password.</div>
+                </div>
+                <div class="forgot-link d-flex align-items-center justify-content-between">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label for="remember">Remember Password</label>
+                    </div>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-custom btn-block">Login</button>
+                <p class="account-smallment">Don't have an account <a href="register.html"><strong>Register Now</strong></a></p>
+        </form>
+
+        <script type="text/javascript" src="cordova .js"></script>
+        <!-- Jquery -->
+        <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <!-- js -->
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script>
+            var form = document.querySelector('.needs-validation');
+            form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    //no request sent
+                    event.preventDefault();
+                    //stop when invalid
+                    event.stopPropagation();
+                } 
+                form.classList.add('was-validated');
+            })
+        </script>
+    </body>
+</html>

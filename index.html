@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<xml version="1.0" encoding="UTF-8"></xml>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- Fontawsome -->
+        <link rel="stylesheet" href="./css/fontawesome/css/all.css">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+        <title>SeasonStyle</title>
+    </head>
+
+    <body>
+        <!-- ========= Start Header Area ========= -->
+        <div class="container-fluid">
+            <nav class="navbar fixed-top header">
+                <div class="row">
+                    <div class="header-text">
+                        <a href="index.html"><h1>SeasonStyle</h1></a>
+                    </div>
+                    <div class="header-text cart">
+                        <a href="#"><i class="fas fa-shopping-cart icon" area-hidden="true">Cart</i></a>            
+                    </div>
+                    <div class="header-text login">
+                        <a href="login.html"><i class="fas fa-user icon" area-hidden="true">Login</i></a>            
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <div class="container-fluid">
+            <!-- second-nav-bar  -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top fixed-top-2 navbar-2">
+                <button class="menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-btn">
+                        <div class="menu-btn-burger"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto nav-ul">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="clothing.html">Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shoes.html">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bags.html">Bags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sale.html">Sale</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Search</button>
+                </form>
+                </div>
+            </nav>
+        </div>
+        
+        <!-- ========= Start Banner Area ========= -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/wall1.jpg" class="d-block w-100 main-wall" alt="wall_1">
+                <div class="carousel-caption d-none d-md-block wall1-text">
+                <h1>Up-to-<span class="red">50%</span>-off-<span class="red">sale</span></h1><br>
+                <a href="sale.html"><button class="btn btn-info btn-lg">Show Now</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/wall2.jpg" class="d-block w-100 main-wall" alt="wall_2">
+                <div class="carousel-caption d-none d-md-block wall2-text">
+                <h1>Summer is here!</h1>
+                <button class="btn btn-info btn-lg">Show Now</button>
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- ========= End Banner Area ========= -->
+        
+        <!-- ========= Start Top Categories Area ========= -->
+        <div class="container-fluid bg-light-gray">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3>top categories</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-top-categories">
+                        <a href="#new10"><img src="./img/accessories/earing1.jpg" alt="top-categories-1"></a>
+                        <div class="first-card-body" id="new10">
+                            <a href="#new10"><h5>New 10%</h5></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-top-categories">
+                        <a href="#best100"><img src="./img/skirt/dress4.jpg" alt="top-categories-2"></a>
+                        <div class="first-card-body">
+                            <a href="#best100"><h5>Best 100</h5></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-top-categories">
+                        <a href="#weeklybest"><img src="./img/shirt/shirt8.jpg" alt="top-categories-3"></a>
+                        <div class="first-card-body">
+                            <a href="#weeklybest"><h5>Weekly Best</h5></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card-top-categories">
+                        <a href="#accessories"><img src="./img/accessories/sunglass3.jpg" alt="top-categories-4"></a>
+                        <div class="first-card-body">
+                            <a href="#accessories"><h5>Accessories</h5></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========= End Top Categories Area ========= -->
+
+        <!-- ============= Start New 10% =============== -->
+        <div class="container-fluid bg-light-gray" id="new10">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3>new 10%</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/skirt/dress3.jpg" alt="top-categories-1">
+                        <div class="card-body">
+                            <h5>Red dress</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/sunglass7.jpg" alt="top-categories-2">
+                        <div class="card-body">
+                            <h5>Black sunglass</h5>
+                            <h5>$22.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/bag/bag2.jpg" alt="top-categories-3">
+                        <div class="card-body">
+                            <h5>Leather backpack</h5>
+                            <h5>$17.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/shirt/shirt6.jpg" alt="top-categories-4">
+                        <div class="card-body">
+                            <h5>Black red shirt</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============= End New 10% =============== -->
+
+        <!-- ============= Start Best 100 =============== -->
+        <div class="container-fluid bg-light-gray" id="best100">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3>Best 100</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/sunglass4.jpg" alt="best100-1">
+                        <div class="card-body">
+                            <h5>Black sunglass</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/skirt/dress6.jpg" alt="best100-2">
+                        <div class="card-body">
+                            <h5>White dress</h5>
+                            <h5>$22.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/jacket/jacket1.jpg" alt="best100-3">
+                        <div class="card-body">
+                            <h5>Leather jacket</h5>
+                            <h5>$17.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/woman.jpg" alt="best100-4">
+                        <div class="card-body">
+                            <h5>Black hat</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============= End Best 100 =============== -->
+
+        <!-- ============= Start Weekly Best =============== -->
+        <div class="container-fluid bg-light-gray" id="weeklybest">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3>Weekly Best</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/shirt/shirt8.jpg" alt="weeklybest-1">
+                        <div class="card-body">
+                            <h5>Colorful shirt</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/shirt/tshirt3.jpg" alt="weeklybest-2">
+                        <div class="card-body">
+                            <h5>Black t-shirt</h5>
+                            <h5>$22.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/shoes/shoes3.jpg" alt="weeklybest-3">
+                        <div class="card-body">
+                            <h5>Nike white shoes</h5>
+                            <h5>$17.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/earing2.jpg" alt="bweeklybest-4">
+                        <div class="card-body">
+                            <h5>Circle earings</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============= End Weekly Best =============== -->
+
+        <!-- ============= Start Accessories =============== -->
+        <div class="container-fluid bg-light-gray" id="accessories">
+            <div class="container pt-5">
+                <div class="row">
+                    <h3>Accessories</h3>
+                </div>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/sunglass4.jpg" alt="Accessories-1">
+                        <div class="card-body">
+                            <h5>Black sunglass</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/bracelet1.jpg" alt="Accessories-2">
+                        <div class="card-body">
+                            <h5>Colorful Bracelet</h5>
+                            <h5>$22.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/accessories/earing3.jpg" alt="Accessories-3">
+                        <div class="card-body">
+                            <h5>Gold earings</h5>
+                            <h5>$17.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="./img/bag/bag4.jpg" alt="Accessories-4">
+                        <div class="card-body">
+                            <h5>Circle bag</h5>
+                            <h5>$20.00</h5>
+                            <button class="btn btn-danger"><i class="fas fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============= End Accessories =============== -->
+
+        <!-- =========== Start Footer area =========== -->
+        <footer>
+            <div class="container-fluid pt-5 text-align footer-box">
+                <div class="container footer-text">
+                    <h1>Season Style</h1>
+                    <h3>Follow us</h3>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <h3>About Season Style</h3>
+                    <a href="aboutus.html">About us</a>|<a href="#">Contact</a>
+                    <div class="copyrights footer-text">
+                        <p class="para">Copyright ©2020 SeasonStyle</p>
+                    </div>
+                    <div class="up" id="up">
+                        <img src="./img/arrow-up.png" alt="arrow up icon">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- =========== End Footer area =========== -->
+        <script type="text/javascript" src="cordova .js"></script>
+        <!-- Jquery -->
+        <script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <!-- js -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
